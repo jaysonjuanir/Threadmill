@@ -62,7 +62,6 @@ public class HorseRace implements Runnable{
 		rank.add(name);
 		try{
 			synchronized(objectLock){
-				//finish++;
 				if(finish==(ai.get()*2)){
 					//System.out.println("GO!\n" +System.currentTimeMillis());
 					System.out.println("\t\t\t\t"+name + " finished " + System.currentTimeMillis() + " all horses was finished!");
